@@ -66,7 +66,7 @@ def build_input():
     return process_input(input_features)
 
 
-model = load_model("decision_tree.pkl")
+model = load_model("random_forest.pkl")
 
 
 def main():
